@@ -126,13 +126,24 @@ export default function ServicesPage() {
       )
     },
     { 
-      title: 'Custom Furniture', 
+      title: 'Custom Furniture Design', 
       desc: 'Craft unique furniture pieces that perfectly complement your interior vision and brand identity.', 
       link: '/service/custom-furniture',
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2">
           <path d="M2 4v16M22 4v16M2 8h20M2 17h20" />
           <rect x="4" y="8" width="16" height="6" rx="1" />
+        </svg>
+      )
+    }
+    ,{ 
+      title: 'Building Design', 
+      desc: 'Full-service building design focusing on safety, function, and elegant façades for residential and commercial projects.', 
+      link: '/service/building-design',
+      icon: (
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2">
+          <path d="M3 11h18M7 21V11M17 21V11M12 3v18" />
+          <rect x="2" y="3" width="20" height="6" rx="1" />
         </svg>
       )
     }
@@ -171,7 +182,7 @@ export default function ServicesPage() {
     <div className="lemonade-grid">
       <div className="lemonade-text">
         
-        {/* নতুন যোগ করা টেক্সট কন্টেইনার */}
+        
         <div className="lemonade-text-container">
           <div className="header-wrapper">
             <span className="subtitle">WELCOME TO LEMONADE</span>

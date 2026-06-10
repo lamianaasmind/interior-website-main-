@@ -80,7 +80,113 @@ import mirpur_c from '../assets/Website Image/extracted/image214.jpeg';
 import manik_a from '../assets/Website Image/extracted/image218.jpeg';
 import manik_b from '../assets/Website Image/extracted/image219.jpeg';
 
+// ════════════════════════════════════════════════════════
+// BUILDING DESIGN – Slides 57–73 (Website Thumbnails)
+// ════════════════════════════════════════════════════════
+
+// Slide 58 – JBS MANAMI, Bashundhara
+import img_jbs from '../assets/Website Image/img2029.jpg';
+import jbs_a from '../assets/Website Image/extracted/image189.jpeg';
+import jbs_b from '../assets/Website Image/extracted/image190.jpeg';
+import jbs_c from '../assets/Website Image/extracted/image191.jpeg';
+import jbs_d from '../assets/Website Image/extracted/image192.jpeg';
+
+// Slide 59 – Nitol Niloy Center, Khatungonj (Building Design view)
+import img_nn_khat_b from '../assets/Website Image/img2046.jpg';
+import nn_khat_b_a from '../assets/Website Image/extracted/image193.jpeg';
+import nn_khat_b_b from '../assets/Website Image/extracted/image194.jpeg';
+import nn_khat_b_c from '../assets/Website Image/extracted/image195.jpeg';
+
+// Slides 60–61 – Coast Foundation Head Office
+import img_coast from '../assets/Website Image/img2060.jpg';
+import coast_a from '../assets/Website Image/extracted/image196.jpg';
+import coast_b from '../assets/Website Image/extracted/image197.jpg';
+
+// Slides 62–63 – Akij Particle Officer's Dormitory
+import img_akij from '../assets/Website Image/img2082.jpg';
+import akij_a from '../assets/Website Image/extracted/image198.jpeg';
+import akij_b from '../assets/Website Image/extracted/image199.jpeg';
+import akij_c from '../assets/Website Image/extracted/image200.jpeg';
+import akij_d from '../assets/Website Image/extracted/image201.jpeg';
+import akij_e from '../assets/Website Image/extracted/image202.jpeg';
+import akij_f from '../assets/Website Image/extracted/image203.jpeg';
+
+// Slide 64 – Hotel Bay Watch (Extension)
+import img_baywatch from '../assets/Website Image/img2104.jpg';
+import baywatch_a from '../assets/Website Image/extracted/image204.jpeg';
+import baywatch_b from '../assets/Website Image/extracted/image205.jpeg';
+import baywatch_c from '../assets/Website Image/extracted/image206.jpeg';
+import baywatch_d from '../assets/Website Image/extracted/image207.jpeg';
+
+// Slide 65 – Gazipur Heart Foundation
+import img_heart from '../assets/Website Image/img2121.jpg';
+import heart_a from '../assets/Website Image/extracted/image208.jpg';
+import heart_b from '../assets/Website Image/extracted/image209.jpg';
+import heart_c from '../assets/Website Image/extracted/image210.jpg';
+import heart_d from '../assets/Website Image/extracted/image211.jpg';
+
+// Slide 68 – RS Villa, Matikata
+import img_rsvilla from '../assets/Website Image/img2157.jpg';
+import rsvilla_a from '../assets/Website Image/extracted/image215.jpg';
+import rsvilla_b from '../assets/Website Image/extracted/image216.jpg';
+import rsvilla_c from '../assets/Website Image/extracted/image217.jpg';
+
+// Slide 70 – Residential Building, Aftabnagar
+import img_aftab from '../assets/Website Image/img2182.jpg';
+import aftab_a from '../assets/Website Image/extracted/image220.jpeg';
+import aftab_b from '../assets/Website Image/extracted/image221.jpeg';
+import aftab_c from '../assets/Website Image/extracted/image222.jpeg';
+
+// Slide 71 – Firoz Residents, Manikgonj
+import img_firoz from '../assets/Website Image/img2196.jpg';
+import firoz_a from '../assets/Website Image/extracted/image223.png';
+import firoz_b from '../assets/Website Image/extracted/image224.png';
+import firoz_c from '../assets/Website Image/extracted/image225.jpeg';
+
+// Slide 72 – Khan Residence, Rangpur
+import img_khan from '../assets/Website Image/img2210.jpg';
+import khan_a from '../assets/Website Image/extracted/image226.jpg';
+import khan_b from '../assets/Website Image/extracted/image227.jpg';
+
+// Slide 73 – Khanka E Mashuria Jamia Mosque Gate
+import img_mosque from '../assets/Website Image/img2221.jpg';
+import mosque_a from '../assets/Website Image/extracted/image228.jpg';
+import mosque_b from '../assets/Website Image/extracted/image229.jpg';
+import mosque_c from '../assets/Website Image/extracted/image230.jpg';
+
+// ════════════════════════════════════════════════════════
+// LANDSCAPE DESIGN – Slides 74–78 (Website Thumbnails)
+// ════════════════════════════════════════════════════════
+
+// Slide 75 – Luxurious Residential Terrace, Mohammadpur
+import img_terrace from '../assets/Website Image/img2246.jpg';
+import terrace_a from '../assets/Website Image/extracted/image231.jpeg';
+import terrace_b from '../assets/Website Image/extracted/image232.jpeg';
+import terrace_c from '../assets/Website Image/extracted/image233.jpeg';
+
+// Slide 76 – Nitol Niloy Center Roof Landscape, Khatungonj
+import img_nn_roof from '../assets/Website Image/img2262.jpg';
+import nn_roof_a from '../assets/Website Image/extracted/image234.png';
+import nn_roof_b from '../assets/Website Image/extracted/image235.png';
+import nn_roof_c from '../assets/Website Image/extracted/image236.png';
+import nn_roof_d from '../assets/Website Image/extracted/image237.png';
+
+// Slide 77 – DU Teachers Quarter & Hostel Dormitory
+import img_du from '../assets/Website Image/img2279.jpg';
+import du_a from '../assets/Website Image/extracted/image238.jpg';
+import du_b from '../assets/Website Image/extracted/image239.jpg';
+import du_c from '../assets/Website Image/extracted/image240.jpg';
+import du_d from '../assets/Website Image/extracted/image241.jpg';
+
+// Slide 78 – Mixed Use Commercial Building (Bangladesh NAVY)
+import img_navy from '../assets/Website Image/img2296.jpg';
+import navy_a from '../assets/Website Image/extracted/image242.jpg';
+import navy_b from '../assets/Website Image/extracted/image243.jpg';
+import navy_c from '../assets/Website Image/extracted/image244.jpg';
+import navy_d from '../assets/Website Image/extracted/image245.jpg';
+
 export const projects = [
+  // ─── RESIDENTIAL ─────────────────────────────────────
   {
     slug: 'loft-interior-design-moghbazar',
     img: loft_a,
@@ -91,28 +197,6 @@ export const projects = [
     sector: 'Residential',
     desc: 'A stunning loft interior design project in Moghbazar, Dhaka, showcasing industrial modern design principles. It features open-plan layouts, exposed textures, custom metal and wood structures, and beautiful mood lighting to create a premium, contemporary living space.',
     gallery: [loft_a, loft_b, loft_c, loft_d]
-  },
-  {
-    slug: 'nitol-niloy-service-center',
-    img: img2,
-    title: 'Design of Nitol Niloy Service Center, Sylhet',
-    client: 'Nitol Niloy Group',
-    location: 'Sylhet',
-    jobRole: 'Architectural Consultancy',
-    sector: 'Commercial',
-    desc: 'An architectural design solution for the Nitol Niloy Service Center in Sylhet, featuring a modern vehicle service area, office zones, and organized layouts to ensure efficient commercial operations.',
-    gallery: [nn_s1_a, nn_s1_b, nn_s1_c, nn_s1_d]
-  },
-  {
-    slug: 'nitol-niloy-service-center-office',
-    img: img3,
-    title: 'Design of Nitol Niloy Service Center, Sylhet',
-    client: 'Nitol Niloy Group',
-    location: 'Sylhet',
-    jobRole: 'Architectural Consultancy',
-    sector: 'Commercial',
-    desc: 'Modern office interior layout within the Nitol Niloy Service Center in Sylhet, designed with smart work area partitioning, custom corporate furniture, and optimal space utilization.',
-    gallery: [nn_s2_a, nn_s2_b, nn_s2_c, nn_s2_d]
   },
   {
     slug: 'residential-building-manikgonj',
@@ -135,6 +219,30 @@ export const projects = [
     sector: 'Residential',
     desc: 'A mixed-use cooperative residential and commercial building design in Ashulia, Savar, prioritizing structural safety, ventilation, and functional community spaces.',
     gallery: [mirpur_a, mirpur_b, mirpur_c]
+  },
+
+  // ─── COMMERCIAL ──────────────────────────────────────
+  {
+    slug: 'nitol-niloy-service-center',
+    img: img2,
+    title: 'Design of Nitol Niloy Service Center, Sylhet',
+    client: 'Nitol Niloy Group',
+    location: 'Sylhet',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Commercial',
+    desc: 'An architectural design solution for the Nitol Niloy Service Center in Sylhet, featuring a modern vehicle service area, office zones, and organized layouts to ensure efficient commercial operations.',
+    gallery: [nn_s1_a, nn_s1_b, nn_s1_c, nn_s1_d]
+  },
+  {
+    slug: 'nitol-niloy-service-center-office',
+    img: img3,
+    title: 'Design of Nitol Niloy Service Center, Sylhet',
+    client: 'Nitol Niloy Group',
+    location: 'Sylhet',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Commercial',
+    desc: 'Modern office interior layout within the Nitol Niloy Service Center in Sylhet, designed with smart work area partitioning, custom corporate furniture, and optimal space utilization.',
+    gallery: [nn_s2_a, nn_s2_b, nn_s2_c, nn_s2_d]
   },
   {
     slug: 'nitol-niloy-center-khatungonj',
@@ -212,5 +320,174 @@ export const projects = [
     sector: 'Commercial',
     desc: 'A premium healthcare interior design for Apollo Clinic, creating a soothing and sterile environment that prioritizes patient comfort and efficient clinical pathways.',
     gallery: [apo_a, apo_b, apo_c, apo_d]
-  }
+  },
+
+  // ─── BUILDING DESIGN ──────────────────────────────────
+  {
+    slug: 'jbs-manami-bashundhara',
+    img: img_jbs,
+    title: 'JBS MANAMI',
+    client: 'JBS Holdings',
+    location: 'Bashundhara R/A, Dhaka',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'A premium residential building design in the upscale Bashundhara R/A, featuring a contemporary multi-story facade with modern architectural detailing and thoughtfully planned floor layouts.',
+    gallery: [jbs_a, jbs_b, jbs_c, jbs_d]
+  },
+  {
+    slug: 'nitol-niloy-khatungonj-building',
+    img: img_nn_khat_b,
+    title: 'Design of Nitol Niloy Center, Khatungonj Branch',
+    client: 'Nitol Niloy Group',
+    location: 'Khatungonj, Chittagong',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'Architectural building design for the Nitol Niloy Center at Khatungonj, Chittagong — a landmark commercial tower combining functional efficiency with a bold modern exterior.',
+    gallery: [nn_khat_b_a, nn_khat_b_b, nn_khat_b_c]
+  },
+  {
+    slug: 'coast-foundation-head-office',
+    img: img_coast,
+    title: 'Design of Coast Foundation Head Office',
+    client: 'Coast Foundation',
+    location: 'Ukhiya, Teknaf',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'A purposeful institutional building design for Coast Foundation\'s Head Office in Teknaf, delivering a professional and durable structure suited to the organization\'s mission in a coastal setting.',
+    gallery: [coast_a, coast_b]
+  },
+  {
+    slug: 'akij-particle-dormitory',
+    img: img_akij,
+    title: 'Design of Akij Particle Officer\'s Dormitory Building',
+    client: 'Akij Particle Industries',
+    location: 'Torra, Manikgonj',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'A well-planned dormitory building for Akij Particle Industries officers in Manikgonj, balancing institutional functionality with comfortable residential amenities and modern structural design.',
+    gallery: [akij_a, akij_b, akij_c, akij_d, akij_e, akij_f]
+  },
+  {
+    slug: 'hotel-bay-watch-extension',
+    img: img_baywatch,
+    title: 'Hotel Bay Watch (Extension)',
+    client: 'Akhter Hossain',
+    location: "Cox's Bazar",
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: "An architectural extension design for Hotel Bay Watch in Cox's Bazar, seamlessly expanding the property with additional guest floors and amenities while maintaining the original aesthetic language.",
+    gallery: [baywatch_a, baywatch_b, baywatch_c, baywatch_d]
+  },
+  {
+    slug: 'gazipur-heart-foundation',
+    img: img_heart,
+    title: 'Proposed Design of a Gazipur Heart Foundation',
+    client: 'National Heart Foundation',
+    location: 'Gazipur',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'A proposed architectural design for the National Heart Foundation branch in Gazipur — a modern healthcare facility designed to accommodate advanced cardiac care services with accessible, patient-centered layouts.',
+    gallery: [heart_a, heart_b, heart_c, heart_d]
+  },
+  {
+    slug: 'rs-villa-matikata',
+    img: img_rsvilla,
+    title: 'RS Villa',
+    client: 'Holy Apartments',
+    location: 'Matikata, Dhaka',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'RS Villa is a contemporary residential villa project in Matikata, Dhaka, designed for luxury living with a refined facade, spacious floor plans, and elegant architectural detailing.',
+    gallery: [rsvilla_a, rsvilla_b, rsvilla_c]
+  },
+  {
+    slug: 'residential-building-aftabnagar',
+    img: img_aftab,
+    title: 'Design of Residential Building',
+    client: 'Ahsan Shiddique',
+    location: 'Aftabnagar, Dhaka',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'A modern multi-story residential building design in Aftabnagar, Dhaka, featuring a clean architectural expression, balcony spaces, and optimized room configurations for urban family living.',
+    gallery: [aftab_a, aftab_b, aftab_c]
+  },
+  {
+    slug: 'firoz-residents-manikgonj',
+    img: img_firoz,
+    title: 'Firoz Residents',
+    client: 'Md. Firoz',
+    location: 'Manikgonj',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'A tasteful residential building designed for Md. Firoz in Manikgonj, combining traditional sensibilities with contemporary architectural forms for a distinctive family home.',
+    gallery: [firoz_a, firoz_b, firoz_c]
+  },
+  {
+    slug: 'khan-residence-rangpur',
+    img: img_khan,
+    title: 'Design of Khan Residence',
+    client: 'Md. Rokouzzaman Khan',
+    location: 'Rangpur',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Building Design',
+    desc: 'A refined residential building design for Khan Residence in Rangpur, featuring a structured facade, rooftop terrace planning, and a layout optimized for large family living.',
+    gallery: [khan_a, khan_b]
+  },
+  {
+    slug: 'khanka-e-mashuria-mosque-gate',
+    img: img_mosque,
+    title: 'Khanka E Mashuria Jamia Mosque Gate Design',
+    client: 'Khanka E Mashuria Jamia Mosque Authority',
+    location: 'Tolarbag, Dhaka',
+    jobRole: 'Architectural Consultancy & Construction',
+    sector: 'Building Design',
+    desc: 'An ornate architectural gate design for the Khanka E Mashuria Jamia Mosque in Tolarbag, Dhaka, blending Islamic architectural motifs with structural ingenuity to create a grand, welcoming entrance.',
+    gallery: [mosque_a, mosque_b, mosque_c]
+  },
+
+  // ─── LANDSCAPE DESIGN ─────────────────────────────────
+  {
+    slug: 'luxurious-residential-terrace-mohammadpur',
+    img: img_terrace,
+    title: 'Luxurious Residential Terrace Design',
+    client: 'Dr. Mirazul Hassan',
+    location: 'Asad Avenue, Mohammadpur',
+    jobRole: 'Architectural Consultancy & Construction',
+    sector: 'Landscape Design',
+    desc: 'A luxurious rooftop terrace landscape design for a private residence in Mohammadpur, featuring curated greenery, relaxation zones, decorative hardscaping, and ambient lighting for an elevated outdoor living experience.',
+    gallery: [terrace_a, terrace_b, terrace_c]
+  },
+  {
+    slug: 'nitol-niloy-khatungonj-roof-landscape',
+    img: img_nn_roof,
+    title: 'Nitol Niloy Center Roof Landscape Design, Khatungonj Branch',
+    client: 'Nitol Niloy Group',
+    location: 'Khatungonj, Chittagong',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Landscape Design',
+    desc: 'A rooftop landscape design for the Nitol Niloy Center in Khatungonj, creating a serene green retreat above a busy commercial complex with modular planters, walkways, and shaded seating areas.',
+    gallery: [nn_roof_a, nn_roof_b, nn_roof_c, nn_roof_d]
+  },
+  {
+    slug: 'du-teachers-quarter-hostel',
+    img: img_du,
+    title: 'Proposed Design of DU Teachers Quarter & Hostel Dormitory',
+    client: 'Dhaka University',
+    location: 'Dhaka University',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Landscape Design',
+    desc: 'A comprehensive landscape and site design proposal for the Dhaka University Teachers Quarter and Hostel Dormitory, incorporating green corridors, open plazas, and community garden spaces for a vibrant campus environment.',
+    gallery: [du_a, du_b, du_c, du_d]
+  },
+  {
+    slug: 'navy-mixed-use-commercial-purbachal',
+    img: img_navy,
+    title: 'Proposed Design of Mixed Use Commercial Building',
+    client: 'Bangladesh NAVY',
+    location: '300ft. Road, Purbachal',
+    jobRole: 'Architectural Consultancy',
+    sector: 'Landscape Design',
+    desc: 'A proposed mixed-use commercial building design for Bangladesh NAVY at Purbachal, integrating structured landscape elements, public-facing green spaces, and organized pedestrian zones to complement the bold architectural form.',
+    gallery: [navy_a, navy_b, navy_c, navy_d]
+  },
 ];

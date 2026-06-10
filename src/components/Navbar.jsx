@@ -53,9 +53,11 @@ export default function Navbar() {
                 </Link>
                 <ul className="dropdown-menu">
                   <li><Link to="/service/interior-design" className={isActive('/service/interior-design')}>Interior Design</Link></li>
+                  <li><Link to="/service/building-design" className={isActive('/service/building-design')}>Building Design</Link></li>
                   <li><Link to="/service/architecture" className={isActive('/service/architecture')}>Architecture</Link></li>
                   <li><Link to="/service/exterior-design" className={isActive('/service/exterior-design')}>Exterior Design</Link></li>
                   <li><Link to="/service/landscape-design" className={isActive('/service/landscape-design')}>Landscape Design</Link></li>
+                  <li><Link to="/service/custom-furniture" className={isActive('/service/custom-furniture')}>Custom Furniture Design</Link></li>
                 </ul>
               </li>
               <li><Link to="/portfolio" className={isActive('/portfolio')}>Portfolio</Link></li>

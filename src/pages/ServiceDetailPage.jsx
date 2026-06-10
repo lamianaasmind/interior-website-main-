@@ -8,9 +8,12 @@ import archImg3 from '../assets/Website Image/img2174.jpg';
 import intImg1 from '../assets/Website Image/img1268.jpg';
 import intImg2 from '../assets/Website Image/img1262.jpg';
 import intImg3 from '../assets/Website Image/img1265.jpg';
-import furnImg1 from '../assets/Website Image/img1271.jpg';
-import furnImg2 from '../assets/Website Image/img1279.jpg';
+import furnImg1 from '../assets/Website Image/img1279.jpg';
+import furnImg2 from '../assets/Website Image/img1271.jpg';
 import furnImg3 from '../assets/Website Image/img1282.jpg';
+import buildImg1 from '../assets/Website Image/img2174.jpg';
+import buildImg2 from '../assets/Website Image/img2138.jpg';
+import buildImg3 from '../assets/Website Image/img1689.jpg';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -23,7 +26,7 @@ const stagger = {
 };
 
 const services = {
-  architecture: {
+  'architecture': {
     title: 'Architecture',
     subtitle: 'ARCHITECTURE SERVICE',
     hero: archImg1,
@@ -38,10 +41,14 @@ const services = {
     ],
     gallery: [archImg1, archImg2, archImg3],
     process: [
-      { step: '01', title: 'Site Analysis', desc: 'We begin with a thorough analysis of your site, understanding the terrain, climate, and local regulations.' },
-      { step: '02', title: 'Concept Design', desc: 'Our architects develop initial concepts that align with your vision, budget, and functional requirements.' },
-      { step: '03', title: 'Design Development', desc: 'Detailed drawings, 3D renderings, and material specifications are prepared for your approval.' },
-      { step: '04', title: 'Construction', desc: 'We oversee the construction process to ensure the design is executed with precision and quality.' },
+       { step: '01', title: 'Initial Survey', desc: "Initial project survey with clients' requirement brief." },
+    { step: '02', title: 'Layout Planning', desc: '2D layout planning with conceptual presentation.' },
+    { step: '03', title: 'Estimating Budget', desc: 'Calculating and finalizing the project budget.' },
+    { step: '04', title: 'Detailed Design', desc: 'Finalizing 3D designs and Bill of Quantities (BOQ).' },
+    { step: '05', title: 'Material Sourcing', desc: 'Sourcing the required materials for your space.' },
+    { step: '06', title: 'Project Planning', desc: 'Scheduling and logistics for implementation.' },
+    { step: '07', title: 'Interior Construction', desc: 'Professional execution of the interior works.' },
+    { step: '08', title: 'QC & Handover', desc: 'Final quality control checks and project handover.' },
     ],
   },
   'interior-design': {
@@ -70,24 +77,53 @@ const services = {
     ],
   },
   'custom-furniture': {
-    title: 'Custom Furniture',
-    subtitle: 'CUSTOM FURNITURE SERVICE',
-    hero: furnImg1,
-    desc: 'Craft unique furniture pieces that perfectly complement your interior vision and brand identity. From concept sketches to finished products, we create bespoke furniture that stands the test of time.',
+    title: 'Custom Furniture Design',
+    subtitle: 'CUSTOM FURNITURE DESIGN SERVICE',
+    hero: furnImg2,
+    desc: 'We design and build custom furniture with an emphasis on fit, finish and longevity. Every piece is tailored to your space, measured precisely, and finished with premium materials so it looks and feels premium for years.',
     features: [
-      'Bespoke Design',
-      'Premium Materials',
-      'Handcrafted Quality',
-      'Custom Upholstery',
-      'Built-in Solutions',
-      'Restoration Services',
+      'Tailored Joinery & Fit',
+      'Solid Wood & Engineered Options',
+      'Custom Finishes & Hardware',
+      'Upholstery & Cushioning',
+      'Built-in & Space-Saving Solutions',
+      'On-site Installation & Handover',
     ],
-    gallery: [furnImg1, furnImg2, furnImg3],
+    gallery: [furnImg2, furnImg3, furnImg1],
+   process: [
+     { step: '01', title: 'Initial Survey', desc: "Initial project survey with clients' requirement brief." },
+   { step: '02', title: 'Concept & Layout', desc: 'Concept sketches and 2D layout planning with material options.' },
+   { step: '03', title: 'Estimating Budget', desc: 'Calculating and finalizing the project budget and timelines.' },
+   { step: '04', title: 'Detailed Design', desc: 'Preparing detailed joinery drawings and fabrication documents.' },
+   { step: '05', title: 'Material Sourcing', desc: 'Selecting and procuring premium materials and hardware.' },
+   { step: '06', title: 'Prototype & Approval', desc: 'Create mockups or prototypes for client approval.' },
+   { step: '07', title: 'Manufacturing & Installation', desc: 'Handcrafted fabrication followed by professional on-site installation.' },
+   { step: '08', title: 'QC & Handover', desc: 'Final quality control checks and client handover with care instructions.' },
+   ],
+  },
+  'building-design': {
+    title: 'Building Design',
+    subtitle: 'BUILDING DESIGN SERVICE',
+    hero: buildImg1,
+    desc: 'Comprehensive building design services including residential, commercial, and institutional structures. We focus on structural integrity, efficient layouts, and elegant façades that suit the client program and site context.',
+    features: [
+      'Concept & Schematic Design',
+      'Structural Coordination',
+      'Façade & Elevation Design',
+      'Permit & Regulatory Drawings',
+      'Construction Documentation',
+      'Material & Finish Specification',
+    ],
+    gallery: [buildImg1, buildImg2, buildImg3],
     process: [
-      { step: '01', title: 'Brief & Inspiration', desc: 'We discuss your requirements, style preferences, and the specific needs of your space.' },
-      { step: '02', title: 'Design & Prototyping', desc: 'Detailed drawings and material samples are prepared. We may create prototypes for complex pieces.' },
-      { step: '03', title: 'Crafting', desc: 'Our skilled craftsmen bring the designs to life using premium materials and traditional techniques.' },
-      { step: '04', title: 'Delivery & Installation', desc: 'Each piece is carefully delivered and installed, with final adjustments made on-site.' },
+      { step: '01', title: 'Site Analysis', desc: "Survey and analysis of site constraints and opportunities." },
+      { step: '02', title: 'Concept Design', desc: 'Schematic layouts and massing studies.' },
+      { step: '03', title: 'Design Development', desc: 'Refinement of plans, elevations and sections.' },
+      { step: '04', title: 'Structural Coordination', desc: 'Integrating structural design and MEP coordination.' },
+      { step: '05', title: 'Permitting', desc: 'Preparing drawings and documentation for approvals.' },
+      { step: '06', title: 'Construction Documentation', desc: 'Detailed drawings for construction and tendering.' },
+      { step: '07', title: 'Site Supervision', desc: 'Overseeing construction for design intent compliance.' },
+      { step: '08', title: 'Handover', desc: 'Final inspection and client handover.' },
     ],
   },
   'exterior-design': {
@@ -105,10 +141,14 @@ const services = {
     ],
     gallery: [archImg2, archImg3, archImg1],
     process: [
-      { step: '01', title: 'Site & Climate Study', desc: 'We examine your building location, orientation, climate, and structural specifications.' },
-      { step: '02', title: 'Concept Design', desc: 'Our team designs custom facades and outdoor elements representing your desired aesthetic.' },
-      { step: '03', title: 'Material Selection', desc: 'We curate premium exterior materials that offer durability, aesthetics, and energy efficiency.' },
-      { step: '04', title: 'Detail Engineering', desc: 'Final blueprints and facade specifications are drafted for accurate structural construction.' },
+       { step: '01', title: 'Initial Survey', desc: "Initial project survey with clients' requirement brief." },
+    { step: '02', title: 'Layout Planning', desc: '2D layout planning with conceptual presentation.' },
+    { step: '03', title: 'Estimating Budget', desc: 'Calculating and finalizing the project budget.' },
+    { step: '04', title: 'Detailed Design', desc: 'Finalizing 3D designs and Bill of Quantities (BOQ).' },
+    { step: '05', title: 'Material Sourcing', desc: 'Sourcing the required materials for your space.' },
+    { step: '06', title: 'Project Planning', desc: 'Scheduling and logistics for implementation.' },
+    { step: '07', title: 'Interior Construction', desc: 'Professional execution of the interior works.' },
+    { step: '08', title: 'QC & Handover', desc: 'Final quality control checks and project handover.' },
     ],
   },
   'landscape-design': {
@@ -126,10 +166,14 @@ const services = {
     ],
     gallery: [intImg3, archImg2, intImg2],
     process: [
-      { step: '01', title: 'Natural Survey', desc: 'We analyze soil conditions, sunlight exposure, and space dynamics to understand the land.' },
-      { step: '02', title: 'Layout & Flow Design', desc: 'We map out green beds, pathways, water points, and relaxation zones for smooth circulation.' },
-      { step: '03', title: 'Plant & Material Selection', desc: 'We select native flora and high-quality hardscape materials matching the aesthetic.' },
-      { step: '04', title: 'Implementation & Styling', desc: 'Our landscape experts oversee the planting and installation of features to bring nature to your doorstep.' },
+       { step: '01', title: 'Initial Survey', desc: "Initial project survey with clients' requirement brief." },
+    { step: '02', title: 'Layout Planning', desc: '2D layout planning with conceptual presentation.' },
+    { step: '03', title: 'Estimating Budget', desc: 'Calculating and finalizing the project budget.' },
+    { step: '04', title: 'Detailed Design', desc: 'Finalizing 3D designs and Bill of Quantities (BOQ).' },
+    { step: '05', title: 'Material Sourcing', desc: 'Sourcing the required materials for your space.' },
+    { step: '06', title: 'Project Planning', desc: 'Scheduling and logistics for implementation.' },
+    { step: '07', title: 'Interior Construction', desc: 'Professional execution of the interior works.' },
+    { step: '08', title: 'QC & Handover', desc: 'Final quality control checks and project handover.' },
     ],
   },
 };
